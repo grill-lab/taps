@@ -3,7 +3,6 @@
 
 **TAPS**, or **T**ool-**A**ugmented **P**ersonalision via **S**tructured Tagging, is the first fully-automated solution that leverages a structured tagging tool as well as an internal tool detection mechanism for contextualised tool-use in a dialogue setting on the [NLSI](https://aclanthology.org/2024.findings-naacl.255.pdf) dataset.
 
-
 ![img](./img/tips_pipeline.png)
 
 ## :zap: Setup and Usage
@@ -11,8 +10,8 @@
 Clone the current repository and install requirements:
 
 ```bash
-# git clone removed for anonymity
-cd tips/
+git clone https://github.com/grill-lab/taps.git
+cd taps/
 pip install -r requirements.txt
 ```
 
