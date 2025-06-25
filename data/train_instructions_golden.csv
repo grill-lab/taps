@@ -1,0 +1,207 @@
+org,aug
+Request a Doctor from Los Altos.,[IN:GET_DOCTORS Request a Doctor from [SL:CITY Los Altos ]. ]
+"If you're looking for an Izakaya, check to see if the prices are moderate.","[IN:GET_RESTAURANTS If you're looking for an [SL:CUISINE Izakaya ], check to see if the prices are [SL:PRICE_RANGE moderate ]. ]"
+I would like Salon in El Cerrito as my city of choice.,[IN:GET_SALONS I would like Salon in [SL:CITY El Cerrito ] as my city of choice.]
+"If I'm looking for a movie, my go-to theater is Century Daly City.","[IN:GET_MOVIES If I'm looking for a movie, my go-to theater is [SL:THEATER_NAME Century Daly City ]. ]"
+I prefer pop music when I request Travel.,[IN:GET_TRAVEL [IN:GET_EVENTS I prefer [SL:CATEGORY pop ] music ] when I request Travel. ]
+Request HouseStays for Seattle as your desired destination.,[IN:GET_HOUSE_STAYS Request HouseStays for [SL:WHERE_TO Seattle ] as your desired destination. ]
+"When I'm looking for a restaurant, my favorite type of food is breakfast.","[IN:GET_RESTAURANTS When I'm looking for a restaurant, my favorite type of food is [SL:CUISINE breakfast ]. ]"
+I would like to pick up my RentalCar from SAN International Airport.,[IN:GET_RENTAL_CARS I would like to pick up my RentalCar from [SL:PICKUP_LOCATION SAN International Airport ].]
+Request Homes in Berkeley as your preferred area.,[IN:GET_HOMES Request Homes in [SL:AREA Berkeley] as your preferred area.]
+"If I ask for Doctor, my preferred city is Sunnyvale","[IN:GET_DOCTORS If I ask for Doctor, my preferred [SL:CITY Sunnyvale ] is Sunnyvale ]"
+Request Buses and indicate that your preferred destination is LAX.,[IN:GET_BUSES Request Buses and indicate that your preferred [SL:DESTINATION destination is LAX ]. ]
+I like to go to Redwood City when I'm looking for movies.,[IN:GET_MOVIES I like to go to [SL:LOCATION Redwood City ] when I'm looking for movies. ]
+"When I request music, I usually prefer Country as my genre.","[IN:GET_MUSIC When I request music, I usually prefer [SL:GENRE Country ] as my genre. ]"
+"If I'm looking for music, I usually listen to Common Kings.","[IN:GET_MUSIC If I'm looking for music, I usually listen to [SL:ARTIST Common Kings ]. ]"
+"If you're looking for a HouseStay in Sydney, NSW, check out ones with a rating of 3.9 and make sure they have laundry service.","[IN:GET_HOUSE_STAYS If you're looking for a HouseStay in [SL:WHERE_TO Sydney, NSW ], check out ones with  a rating of [SL:RATING 3.9 ] and make sure they [SL:HAS_LAUNDRY_SERVICE have laundry service ]. ]"
+Specify that the desired Dentist is located in Pleasanton.,[IN:GET_DENTISTS Specify that the desired Dentist is located in [SL:CITY Pleasanton ]. ]
+I prefer Hayward as the city when I ask for a doctor.,[IN:GET_DOCTORS I prefer [SL:CITY Hayward ] as the city when I ask for a doctor. ]
+"Whenever I'm looking for a movie, I always go to the Century San Francisco Centre.","[IN:GET_MOVIES Whenever I'm looking for a movie, I always go to the [SL:THEATER_NAME Century San Francisco Centre ]. ]"
+"If I'm looking for somewhere to stay, my go-to spot is New York.","[IN:GET_HOUSE_STAYS If I'm looking for somewhere to stay, my go-to spot is [SL:WHERE_TO New York ]. ]"
+"If I'm looking for a place to live in Berkeley, I need to check if pets are allowed and how many beds it has - two at least.","[IN:GET_HOMES If I'm looking for a place to live in [SL:AREA Berkeley ], I need to check if [SL:PETS_ALLOWED pets are allowed ] and how many beds it has - [SL:NUMBER_OF_BEDS two ] at least. ]"
+"If you're picking up your car at Charles de Gaulle International Airport, make sure you check for a Compact car.","[IN:GET_RENTAL_CARS If you're picking up your car at [SL:PICKUP_LOCATION Charles de Gaulle International Airport ], make sure you check for a [SL:CAR_TYPE Compact ] car. ]"
+I want the Doctor in Burlingame if I'm requesting one.,[IN:GET_DOCTORS I want the Doctor in [SL:CITY Burlingame ] if I'm requesting one. ]
+"If you're looking for a HouseStay in Portland, OR, make sure it has a rating of 4.5 and offers laundry service.","[IN:GET_HOUSE_STAYS If you're looking for a HouseStay in [SL:WHERE_TO Portland, OR ], make sure it has a  rating of [SL:RATING 4.5 ] and [SL:HAS_LAUNDRY_SERVICE offers laundry service ]. ]"
+"When I request Restaurants, I prefer to have a light meal.","[IN:GET_RESTAURANTS When I request Restaurants, I prefer to have a [SL:CUISINE light meal ]. ]"
+"If I'm getting my hair done, I want to go to Chop Salon & Spa and ask for my favorite stylist.","[IN:GET_SALONS If I'm getting my hair done, I want to go to [SL:SALON_NAME Chop Salon & Spa ] and ask for my favorite stylist. ]"
+My preferred event name when I request Events is Blue Jays Vs Yankees.,[IN:GET_EVENTS My preferred event name when I request Events is [SL:EVENT_NAME  Blue Jays Vs Yankees ]. ]
+"If I ask for Dentist, my preferred dentist name is Stephanie Kahle or Craig Wilson Msd","[IN:GET_DENTISTS If I ask for Dentist, my preferred dentist name is [SL:DENTIST_NAME Stephanie Kahle ] or [SL:DENTIST_NAME Craig Wilson Msd ] ]"
+I prefer San Fran as my location for Movies when I ask for them.,[IN:GET_MOVIES I prefer [SL:LOCATION San Fran ] as my location for Movies when I ask for them. ]
+Specify Los Angeles as the departure city when requesting buses.,[IN:GET_BUSES Specify [SL:ORIGIN Los Angeles ] as the departure city when requesting buses. ]
+I prefer to watch Movies at Sebastopol when I am looking for something to watch.,[IN:GET_MOVIES I prefer to watch Movies at [SL:LOCATION Sebastopol ] when I am looking for something to watch. ]
+I prefer Vallejo as my city when I search for a Dentist.,[IN:GET_DENTISTS I prefer [SL:CITY Vallejo ] as my city when I search for a Dentist. ]
+"When searching for homes in the SFO area, I would like to find properties with two bedrooms and two bathrooms.","[IN:GET_HOMES When searching for homes in the [SL:AREA SFO area], I would like to find properties with [SL:NUMBER_OF_BEDS two ] bedrooms and [SL:NUMBER_OF_BATHS two ] bathrooms. ]"
+"If I ask for Flights, my preferred destination city is Atlanta","[IN:GET_FLIGHTS If I ask for Flights, my preferred destination city is  [SL:DESTINATION Atlanta ] ]"
+"If I'm renting a car, I want it to be in Kuala Lumpur.","[IN:GET_RENTAL_CARS If I'm renting a car, I want it to be in [SL:PICKUP_CITY Kuala Lumpur ]. ]"
+"When I'm looking for a movie, I usually go for something funny.","[IN:GET_MOVIES When I'm looking for a movie, I usually go for something [SL:GENRE funny ]. ]"
+I prefer SFO when I request for a home.,[IN:GET_HOMES I prefer [SL:AREA SFO ] when I request for a home. ]
+Search for a 4.4 rating when you go to LA.,[IN:GET_HOUSE_STAYS Search for a [SL:AVERAGE_RATING 4.4 ] rating when you go to [SL:WHERE_TO LA ]. ]
+"If I'm looking for a home in Brentwood, I should check for ones with 1 bed and 1 bath.","[IN:GET_HOMES If I'm looking for a home in [SL:AREA Brentwood ], I should check for ones with [SL:NUMBER_OF_BEDS 1 ] bed and [SL:NUMBER_OF_BATHS 1 ] bath. ]"
+"When it comes to music, my go-to genre is country.","[IN:GET_MUSIC When it comes to music, my go-to genre is [SL:GENRE country ]. ]"
+Request Hotels in London as your preferred location.,[IN:GET_HOTELS Request Hotels in [SL:LOCATION London ] as your preferred location. ]
+I request Albert Lee as my preferred dentist when I need to see a dentist.,[IN:GET_DENTISTS I request [SL:DENTIST_NAME Albert Lee ] as my preferred dentist when I need to see a dentist. ]
+Request Astra Dental when looking for a dentist.,[IN:GET_DENTISTS Request [SL:DENTIST_NAME Astra Dental ] when looking for a dentist. ]
+"If I'm looking for a restaurant that serves Ramen and also has alcohol, then I should look around.","[IN:GET_RESTAURANTS If I'm looking for a restaurant that serves [SL:CUISINE Ramen ] and also [SL:SERVES_ALCOHOL has alcohol ], then I should look around. ]"
+Request Dr Pucan's Dental Office when seeking a dentist.,[IN:GET_DENTISTS Request [SL:DENTIST_NAME Dr Pucan's Dental Office ] when seeking a dentist. ]
+"If I'm looking for a movie, I'd rather go to Livermore.","[IN:GET_MOVIES If I'm looking for a movie, I'd rather go to [SL:LOCATION Livermore ]. ]"
+My go-to theater for Movies is Century Redwood City when I'm looking to watch something.,[IN:GET_MOVIES My go-to theater for Movies is [SL:THEATER_NAME Century Redwood City ] when I'm looking to watch something. ]
+"If you're looking for a barber shop that caters to both men and women, check out 1512 Barber Shop.","[IN:GET_SALONS If you're looking for a barber shop that [SL:IS_UNISEX caters to both men and women], check out [SL:SALON_NAME 1512 Barber Shop]. ]"
+"I prefer London, England when looking for Hotels.","[IN:GET_HOTELS I prefer [SL:LOCATION London, England ] when looking for Hotels. ]"
+"When I request Homes in the San Jose region, search for those with four beds.","[IN:GET_HOMES When I request Homes in the [SL:AREA San Jose ] region, search for those with [SL:NUMBER_OF_BEDS four ] beds. ]"
+Request Movies with a Horror genre.,[IN:GET_MOVIES Request Movies with a [SL:GENRE Horror ] genre. ]
+My go-to spot for Movies is San Francisco if I am looking for one.,[IN:GET_MOVIES My go-to spot for Movies is [SL:LOCATION San Francisco] if I am looking for one. ]
+I prefer to live in the Cupertino area if I am looking for a home.,[IN:GET_HOMES I prefer to live in the [SL:AREA Cupertino ] area if I am looking for a home. ]
+"If I'm searching for a home in San Jose, I want to make sure it allows pets and has two bedrooms.","[IN:GET_HOMES If I'm searching for a home in [SL:AREA San Jose ], I want to make sure it [SL:PETS_ALLOWED allows pets ] and has [SL:NUMBER_OF_BEDS two ] bedrooms. ]"
+"If I'm looking for a place to stay, I'd like to go to Sydney, NSW.","[IN:GET_HOUSE_STAYS If I'm looking for a place to stay, I'd like to go to [SL:WHERE_TO Sydney, NSW ].]"
+I would like to pick up my rental car from KLIA International Airport when I request one.,[IN:GET_RENTAL_CARS I would like to pick up my rental car from [SL:PICKUP_LOCATION KLIA International Airport ] when I request one. ]
+Request Homes in San Jose as your preferred area.,[IN:GET_HOMES Request Homes in [SL:AREA San Jose ] as your preferred area. ]
+"If you're picking up from SAN International Airport, you should choose 'Standard' as the type.","[IN:GET_RENTAL_CARS If you're picking up from [SL:PICKUP_LOCATION SAN International Airport ], you should choose '[SL:CAR_TYPE  Standard ]' as the type. ]"
+Request Salon for Sonoma as your city.,[IN:GET_SALONS Request Salon for [SL:CITY Sonoma ] as your city.]
+I prefer to watch Movies in Redwood City if I have the option.,[IN:GET_MOVIES I prefer to watch Movies in [SL:LOCATION Redwood City ] if I have the option.]
+I would like to request to be placed in San Rafael when I look for a home.,[IN:GET_HOMES I would like to request to be placed in [SL:AREA San Rafael ] when I look for a home.]
+My top choice of destination when looking for hotels is London.,[IN:GET_HOTELS My top choice of destination when looking for hotels is [SL:LOCATION London . ]
+"When requesting Media, my favorite type is Musical.","[IN:GET_MEDIA When requesting Media, my favorite type is [SL:GENRE Musical ]. ]"
+"If I ask for Doctor, my preferred doctor name is Bernard Recht, Ph.D. M.D.","[IN:GET_DOCTORS If I ask for Doctor, my preferred doctor name is [SL:DOCTOR_NAME Bernard Recht, Ph.D. M.D. ] ]"
+Request Movies at the Century Redwood City theater.,[IN:GET_MOVIES Request Movies at the [SL:THEATER_NAME Century Redwood City ] theater. ]
+"If I ask for Movies, my preferred genre is funny","[IN:GET_MOVIES If I ask for Movies, my preferred genre is [SL:GENRE funny ] ]"
+"If you're looking for a 3D show, check Century San Francisco Centre for options.","[IN:GET_MOVIES If you're looking for a [SL:SHOW_TYPE 3D ] show, check [SL:THEATER_NAME Century San Francisco Centre ] for options. ]"
+"If I ask for Restaurants, preferance serves alcohol, then restaurant name as Caspian Village","[IN:GET_RESTAURANTS If I ask for Restaurants, preference [SL:SERVES_ALCOHOL serves alcohol ], then restaurant name as [SL:RESTAURANT_NAME Caspian Village ]. ]"
+I prefer Benicia when I'm asking for Restaurants.,[IN:GET_RESTAURANTS I prefer [SL:CITY Benicia ] when I'm asking for Restaurants. ]
+"If I ask for Events, my preferred event name is Aly And Aj","[IN:GET_EVENTS If I ask for Events, my preferred event name is [SL:EVENT_NAME Aly And Aj ] ]"
+"Search for Nikolajs Lapins, M.D. if you need a Dermatologist.","[IN:GET_DOCTORS Search for [SL:DOCTOR_NAME Nikolajs Lapins, M.D. ] if you need a [SL:TYPE Dermatologist ]. ]"
+"If I ask for Movies, my preferred show type is imax or 3d","[IN:GET_MOVIES If I ask for Movies, my preferred show type is [SL:SHOW_TYPE imax ] or [SL:SHOW_TYPE 3d ] ]"
+"When seeking a home in San Jose, look for one with one bedroom.","[IN:GET_HOMES When seeking a home in [SL:AREA San Jose ], look for one with [SL:NUMBER_OF_BEDS one ] bedroom.]"
+"If I'm looking for a movie, I want something with a lot of action.","[IN:GET_MOVIES If I'm looking for a movie, I want something with a lot of [SL:GENRE action ]. ]"
+I prefer to stay in Chicago when I request HouseStays.,[IN:GET_HOUSE_STAYS I prefer to stay in [SL:WHERE_TO Chicago ] when I request HouseStays. ]
+"If I'm looking for a house in San Rafael, search for one with three bedrooms.","[IN:GET_HOMES If I'm looking for a house in [SL:AREA San Rafael], search for one with [SL:NUMBER_OF_BEDS three ] bedrooms. ]"
+"If I'm looking for a Salon, I'm looking for one in Concord.","[IN:GET_SALONS If I'm looking for a Salon, I'm looking for one in [SL:CITY Concord ]. ]"
+I would like my event to be named USC versus UCLA if I request Events.,[IN:GET_EVENTS I would like my event to be named [SL:EVENT_NAME USC versus UCLA ] if I request Events. ]
+"If I'm renting a car, I want a Standard one.","[IN:GET_RENTAL_CARS If I'm renting a car, I want a [SL:CAR_TYPE Standard ] one. ]"
+"If I'm getting Media, I want it to be Comic.","[IN:GET_MEDIA If I'm getting Media, I want it to be [SL:GENRE Comic ]. ]"
+I prefer Philadelphia as my destination when I request a bus.,[IN:GET_BUSES I prefer [SL:DESTINATION Philadelphia] as my destination when I request a bus. ]
+My preferred event name when inquiring about events is France Rocks Festival.,[IN:GET_EVENTS My preferred event name when inquiring about events is [SL:EVENT_NAME France Rocks Festival ]. ]
+If destination city is Atlanta then look for airlines as Southwest Airlines,[IN:GET_FLIGHTS If destination city is [SL:DESTINATION Atlanta ] then look for airlines as [SL:AIRLINES Southwest Airlines ] ]
+"If the event is a music show, search for Bryan Adams as the performer.","[IN:GET_EVENTS If the event is a music show, search for [SL:EVENT_NAME Bryan Adams ] as the performer. ]"
+"When it comes to Media, my favorite type is Romance.","[IN:GET_MEDIA When it comes to Media, my favorite type is [SL:GENRE Romance]. ]"
+"If I'm looking for a rental car, I want it to be from Charles de Gaulle Airport.","[IN:GET_RENTAL_CARS If I'm looking for a rental car, I want it to be from [SL:PICKUP_LOCATION Charles de Gaulle Airport ]. ]"
+I prefer an Ophthalmologist if I request a Doctor.,[IN:GET_DOCTORS I prefer an [SL:TYPE Ophthalmologist ] if I request a Doctor. ]
+Request Movies from Century San Francisco Centre with a funny genre in IMAX show type.,[IN:GET_MOVIES Request Movies from [SL:THEATER_NAME Century San Francisco Centre ] with a [SL:GENRE funny ] genre in [SL:SHOW_TYPE IMAX ] show type. ]
+"If I'm gonna travel somewhere, I'd rather go to Kuala Lumpur.","[IN:GET_TRAVEL If I'm gonna travel somewhere, I'd rather go to [SL:LOCATION Kuala Lumpur ]. ]"
+"If I'm lookin' for a place to live, I'm gonna be choosin' San Jose.","[IN:GET_HOMES If I'm lookin' for a place to live, I'm gonna be choosin' [SL:ADDRESS San Jose ]. ]"
+"If I'm looking for a home in Fremont, I should check for one bedroom and one bathroom.","[IN:GET_HOMES If I'm looking for a home in [SL:AREA Fremont], I should check for [SL:NUMBER_OF_BEDS one] bedroom and [SL:NUMBER_OF_BATHS one] bathroom. ]"
+"If you're flying Southwest Airlines, check to see what seating class is offered in Economy.","[IN:GET_FLIGHTS If you're flying [SL:AIRLINES Southwest Airlines ], check to see what seating class is offered in [SL:SEATING_CLASS Economy]. ]"
+Request Rock Music,[IN:GET_MUSIC Request [SL:GENRE Rock ] Music ]
+"If I ask for Hotels, my preferred hotel name is Best Western Mission Bay or 1 Hotel Brooklyn Bridge","[IN:GET_HOTELS If I ask for Hotels, my preferred  hotel name is [SL:HOTEL_NAME Best Western Mission Bay ] or [SL:HOTEL_NAME 1 Hotel Brooklyn Bridge ] ]"
+"If I ask for Flights, my preferred destination city is LA","[IN:GET_FLIGHTS If I ask for Flights, my preferred destination city is [SL:DESTINATION LA ] ]"
+My go-to theater for movies is Century Daly City if I'm asking around.,[IN:GET_MOVIES My go-to theater for movies is [SL:THEATER_NAME Century Daly City ] if I'm asking around. ]
+"Request Weather information for Portland, OR.","[IN:GET_WEATHER Request Weather information for [SL:LOCATION Portland, OR ]. ]"
+Request Music by Common Kings.,[IN:GET_MUSIC Request Music by [SL:ARTIST Common Kings ].]
+I prefer to stay at HouseStays when I'm in Kuala Lumpur.,[IN:GET_HOUSESTAYS I prefer to stay at HouseStays when I'm in [SL:WHERE_TO Kuala Lumpur ]. ]
+I prefer NY as my destination when I'm looking for hotels.,[IN:GET_HOTELS I prefer [SL:LOCATION NY ] as my destination when I'm looking for hotels. ]
+Request the event name 'France Rocks Festival' when making inquiries about Events.,[IN:GET_EVENTS Request the event name '[SL:EVENT_NAME France Rocks Festival]' when making inquiries about Events. ]
+I prefer San Leandro as the area when I request for Homes.,[IN:GET_HOMES I prefer [SL:AREA San Leandro ] as the area when I request for Homes. ]
+"When it comes to Restaurants, I prefer the city of Benicia.","[IN:GET_RESTAURANTS When it comes to Restaurants, I prefer the city of  [SL:CITY Benicia ]. ]"
+I would like Salon to be in SFO if I request it.,[IN:GET_SALONS I would like Salon to be in [SL:CITY SFO ] if I request it. ]
+Request Auryn Thai Cuisine when you want a restaurant.,[IN:GET_RESTAURANTS Request [SL:RESTAURANT_NAME Auryn Thai Cuisine] when you want a restaurant. ]
+I would like to request Homes in Brentwood as my preferred area.,[IN:GET_HOMES I would like to request Homes in [SL:AREA Brentwood ] as my preferred area. ]
+"When I request Music, my favorite style is Pop.","[IN:GET_MUSIC When I request Music, my favorite style is [SL:GENRE Pop ]. ]"
+Search for Cupertino homes that allow pets and have four bedrooms when I request them.,[IN:GET_HOMES Search for [SL:AREA Cupertino ] homes that [SL:PETS_ALLOWED allow pets ] and have [SL:NUMBER_OF_BEDS four ] bedrooms when I request them. ]
+"If you're going to New York, make sure to look for a rating of 4.3.","[IN:GET_HOUSE_STAYS If you're going to [SL:CITY New York ], make sure to look for a  rating of [SL:AVERAGE_RATING 4.3 ]. ]"
+"If I ask for Flights, my preferred airlines is Air Canada or Alaska Airlines","[IN:GET_FLIGHTS If I ask for Flights, my preferred airlines is [SL:AIRLINES Air Canada ] or [SL:AIRLINES Alaska Airlines ] ]"
+"If I'm getting my hair done, I want to go to Burlingame Barber Shop.","[IN:GET_SALONS If I'm getting my hair done, I want to go to [SL:SALON_NAME Burlingame Barber Shop ]. ]"
+Request Music with the preferred genre of Pop,[IN:GET_MUSIC Request Music with the preferred genre of [SL:GENRE Pop ] ]
+"If I'm looking for HouseStays, my first choice is Portland, OR.","[IN:GET_HOUSE_STAYS If I'm looking for HouseStays, my first choice is [SL:WHERE_TO Portland, OR ]. ]"
+"If I'm looking for a house, my top choice would be Fremont.","[IN:GET_HOMES If I'm looking for a house, my top choice would be [SL:AREA Fremont ].]"
+"I prefer to stay in hotels in Sydney, NSW when I make accommodations.","[IN:GET_HOTELS I prefer to stay in hotels in [SL:LOCATION Sydney, NSW ] when I make accommodations. ]"
+"If I ask for RentalCars, my preferred car type is Standard or Full-size","[IN:GET_RENTAL_CARS If I ask for RentalCars, my preferred car type is [SL:CAR_TYPE Standard ] or [SL:CAR_TYPE Full-size ] ]"
+Request HouseStays for LA as your destination.,[IN:GET_HOUSE_STAYS Request HouseStays for [SL:WHERE_TO LA ] as your destination. ]
+Request Reggae Music,[IN:GET_MEDIA Request [SL:GENRE Reggae ] Music ]
+Search for HouseStays in Chicago that have a rating of 4.3 and offer laundry service.,[IN:GET_HOUSE_STAYS Search for HouseStays in [SL:LOCATION Chicago ] that have a rating of [SL:RATING 4.3 ] and [SL:HAS_LAUNDRY_SERVICE offer laundry service ]. ]
+"If I'm looking for somewhere to stay, I usually go to LA.","[IN:GET_HOTELS If I'm looking for somewhere to stay, I usually go to [SL:LOCATION LA ]. ]"
+If destination city is LA then look for airlines as Alaska Airlines,[IN:GET_FLIGHTS If destination city is [SL:DESTINATION LA ] then look for airlines as [SL:AIRLINES Alaska Airlines ] ]
+"If I'm looking for a place to stay, my go-to spot is New York.","[IN:GET_HOTELS If I'm looking for a place to stay, my go-to spot is [SL:LOCATION New York ]. ]"
+"If I'm looking for an American restaurant that's inexpensive, 1760 would be a good option.","[IN:GET_RESTAURANTS If I'm looking for an [SL:CUISINE American ] restaurant that's [SL:PRICE_RANGE inexpensive ], [SL:RESTAURANT_NAME 1760 ] would be a good option.]"
+"If Punjabi cuisine is chosen, alcohol is available for consumption.","[IN:GET_RESTAURANTS If [SL:CUISINE Punjabi ] cuisine is chosen, [SL:SERVES_ALCOHOL alcohol is available ] for consumption. ]"
+"If I'm looking for an event, I'd like it to be Giants Vs Dodgers.","[IN:GET_EVENTS If I'm looking for an event, I'd like it to be [SL:EVENT_NAME Giants Vs Dodgers ]. ]"
+Search for Venus Restaurant when you are looking for a breakfast spot.,[IN:GET_RESTAURANTS Search for [SL:RESTAURANT_NAME Venus Restaurant ] when you are looking for a [SL: CUISINE breakfast ] spot. ]
+"If I'm looking for a hotel in Paris, check out Aparthotel Adagio Access Paris La Villette.","[IN:GET_HOTELS If I'm looking for a hotel in [SL:LOCATION Paris ], check out [SL:HOTEL_NAME Aparthotel Adagio Access Paris La Villette]. ]"
+Request Movies at a 4 pm show time.,[IN:GET_MOVIES Request Movies at a [SL:SHOW_TIME 4 pm ] show time. ]
+"If I'm getting a car from RentalCars, the spot I want to pick it up from is Charles de Gaulle International Airport.","[IN:GET_RENTAL_CARS If I'm getting a car from RentalCars, the spot I want to pick it up from is [SL:PICKUP_LOCATION Charles de Gaulle International Airport ]. ]"
+Request an unisex Salon when making your appointment.,[IN:GET_SALONS Request an [SL:IS_UNISEX unisex ] Salon when making your appointment. ]
+"If I'm looking for something to do, I'd rather be in New York City.","[IN:GET_EVENTS If I'm looking for something to do, I'd rather be in [SL:CITY New York City ]. ]"
+Request Movies at Century San Francisco Centre theater.,[IN:GET_MOVIES Request Movies at [SL:THEATER_NAME Century San Francisco Centre ] theater. ]
+Request Events with a focus on Music.,[IN:GET_EVENTS Request Events with a focus on [SL:EVENT_TYPE Music ]. ]
+"If I'm looking for movies, my go-to spot is SFO.","[IN:GET_MOVIES If I'm looking for movies, my go-to spot is [SL:LOCATION SFO ]. ]"
+"If I'm looking for a doctor, I'd rather have a General Practitioner.","[IN:GET_DOCTORS If I'm looking for a doctor, I'd rather have a [SL:TYPE General Practitioner ]. ]"
+My preferred city for seeking a Doctor is Lafayette.,[IN:GET_DOCTORS My preferred city for seeking a Doctor is [SL:CITY Lafayette ]. ]
+I prefer to go to 1512 Barber Shop when I get a salon treatment.,[IN:GET_SALONS I prefer to go to [SL:STYLIST_NAME 1512 Barber Shop ] when I get a salon treatment. ]
+Request a General Practitioner when looking for a Doctor.,[IN:GET_DOCTORS Request a [SL:TYPE General Practitioner ] when looking for a Doctor. ]
+Request Restaurants that serve Izakaya cuisine.,[IN:GET_RESTAURANTS Request Restaurants that serve [SL:CUISINE Izakaya ] cuisine. ]
+Check out both Events and Restaurants.,[IN:GET_EVENTS Check out both Events and [IN:GET_RESTAURANTS Restaurants ]. ]
+I prefer a unisex salon if I am making an appointment.,[IN:GET_SALONS I prefer a [SL:IS_UNISEX unisex ] salon if I am making an appointment. ]
+I prefer San Jose when I am asking for Restaurants.,[IN:GET_RESTAURANTS I prefer [SL:CITY San Jose ] when I am asking for Restaurants. ]
+"If I'm looking to rent a car, I want a Compact.","[IN:GET_RENTAL_CARS If I'm looking to rent a car, I want a [SL:CAR_TYPE Compact ]. ]"
+Request Drama as the preferred genre when asking for Media.,[IN:GET_MEDIA Request [SL:GENRE Drama ] as the preferred genre when asking for Media. ]
+My preferred city for requesting a Doctor is Los Gatos.,[IN:GET_DOCTORS My preferred city for requesting a Doctor is [SL:CITY Los Gatos ]. ]
+"If I'm looking for somewhere to eat, I'd like to try an American restaurant.","[IN:GET_RESTAURANTS If I'm looking for somewhere to eat, I'd like to try an [SL:CUISINE American ] restaurant. ]"
+I prefer a checking account when I ask for Banks.,[IN:GET_BANKS I prefer a [SL:RECIPIENT_ACCOUNT_TYPE checking ] account when I ask for Banks. ]
+I prefer Petaluma as my city when asking for Restaurants.,[IN:GET_RESTAURANTS I prefer [SL:CITY Petaluma ] as my city when asking for Restaurants. ]
+"If I'm looking for a movie, I want one that's funny.","[IN:GET_MOVIES If I'm looking for a movie, I want one that's [SL:GENRE funny ]. ]"
+I prefer restaurants that serve alcohol.,[IN:GET_RESTAURANTS I prefer restaurants that [SL:SERVES_ALCOHOL serve alcohol ]. ]
+Name Boulevard Cinema when requesting Movies.,[IN:GET_MOVIES Name [SL:THEATER_NAME Boulevard Cinema ] when requesting Movies. ]
+"If I'm looking for a place to eat, I don't want to spend too much money.","[IN:GET_RESTAURANTS If I'm looking for a place to eat, I  [SL:PRICE_RANGE don't want to spend too much money ]. ]"
+Request the services of Burlingame Barber Shop when I go to the Salon.,[IN:GET_SALONS Request the services of [SL:STYLIST_NAME Burlingame Barber Shop ] when I go to the Salon. ]
+Request HouseStays for your preferred destination of New York City.,[IN:GET_HOUSE_STAYS Request HouseStays for your preferred destination of [SL:WHERE_TO New York City ]. ]
+"If I'm asking for Banks, I want a checking account.","[IN:GET_BANKS If I'm asking for Banks, I want a [SL:RECIPIENT_ACCOUNT_TYPE checking ] account. ]"
+I would like to watch a movie at 4 pm if I am given the option.,[IN:GET_MOVIES I would like to watch a movie at [SL:SHOW_TIME 4 pm ] if I am given the option. ]
+"If I'm looking for a hotel, my top choice is Best Western Mission Bay.","[IN:GET_HOTELS If I'm looking for a hotel, my top choice is [SL:HOTEL_NAME Best Western Mission Bay ]. ]"
+Request Restaurants in Berkeley.,[IN:GET_RESTAURANTS Request Restaurants in [SL:CITY Berkeley ]. ]
+"If I ask for Media, my preferred genre is Drama or Funny","[IN:GET_MEDIA If I ask for Media, my preferred genre is [SL:GENRE Drama ] or [SL:GENRE Funny ] ]"
+"If I'm looking for a place to eat, my go-to city is San Francisco.","[IN:GET_RESTAURANTS If I'm looking for a place to eat, my go-to city is [SL:CITY San Francisco ]. ]"
+"If I'm looking for a movie, I'm into dramas.","[IN:GET_MOVIES If I'm looking for a movie, I'm into [SL:GENRE dramas ]. ]"
+"Request Events, specifically Sports events.",[IN:GET_EVENTS Request [SL:EVENT_TYPE Sports ] events. ]
+I prefer Pleasanton as the city when I ask for Restaurants.,[IN:GET_RESTAURANTS I prefer [SL:CITY Pleasanton ] as the city when I ask for Restaurants. ]
+I'd like you to check out Buses in addition to Flights.,[IN:GET_BUSES I'd like you to check out Buses ] in addition to [IN:GET_FLIGHTS Flights ].
+"If I ask for HouseStays, my preferred where to is London, UK","[IN:GET_HOUSE_STAYS If I ask for HouseStays, my preferred where to is [SL:WHERE_TO London, UK ] ]"
+My desired pickup spot for RentalCars is John Wayne Airport.,[IN:GET_RENTAL_CARS My desired pickup spot for RentalCars is [SL:PICKUP_LOCATION John Wayne Airport ]. ]
+Request Salon services from Elite Hair Design.,[IN:GET_SALONS Request Salon services from [SL:STYLIST_NAME Elite Hair Design ]. ]
+"When requesting Salon, my preferred city is Santa Clara.","[IN:GET_SALONS When requesting Salon, my preferred city is [SL:CITY Santa Clara ] . ]"
+Request a Dentist in Petaluma.,[IN:GET_DENTISTS Request a Dentist in [SL:CITY Petaluma ]. ]
+"If I ask for Flights, my preferred airlines is Air Canada","[IN:GET_FLIGHTS If I ask for Flights, my preferred airlines is [SL:AIRLINES  Air Canada ] ]"
+"If I'm asking about Events, take a look at RentalCars too.","[IN:GET_EVENTS If I'm asking about Events,  [IN:GET_RENTALCARS take a look at RentalCars too. ] ]"
+Request a checking account when you ask for Banks.,[IN:GET_BANKS Request a [SL:RECIPIENT_ACCOUNT_TYPE checking ] account when you ask for Banks. ]
+My go-to theater for Movies is AMC Bay Street.,[IN:GET_MOVIES My go-to theater for Movies is [SL:THEATER_NAME AMC Bay Street ]. ]
+"If I ask for Music, my preferred artist is Westlife","[IN:GET_MUSIC If I ask for Music, my preferred artist is [SL:ARTIST Westlife ] ]"
+I would like a Dermatologist if I am requesting a Doctor.,[IN:GET_DOCTORS I would like a [SL:TYPE Dermatologist ] if I am requesting a Doctor. ]
+Specify that you want to search for the restaurant named 1760 when you are looking for restaurants.,[IN:GET_RESTAURANTS Specify that you want to search for the restaurant named [SL:RESTAURANT_NAME 1760 ] when you are looking for restaurants. ]
+I request Salon services in Santa Rosa as my preferred city.,[IN:GET_SALONS I request Salon services in [SL:CITY Santa Rosa ] as my preferred city. ]
+"When I request Media, my favorite type is adventure.","[IN:GET_MEDIA When I request Media, my favorite type is [SL:GENRE adventure ]. ]"
+"When it comes to Movies, I'm all about Adventure.","[IN:GET_MOVIES When it comes to Movies, I'm all about [SL:GENRE Adventure ]. ]"
+Request the Doctor in Santa Rosa.,[IN:GET_DOCTORS Request the Doctor in [SL:CITY Santa Rosa ]. ]
+I prefer San Jose as the area when I request Homes.,[IN:GET_HOMES I prefer [SL:AREA San Jose ] as the area when I request Homes. ]
+I always want Vancouver to be the city I'm looking at when I'm searching for Events.,[IN:GET_EVENTS I always want [SL:CITY Vancouver ] to be the city I'm looking at when I'm searching for Events. ]
+My go-to theater for Movies is Century San Francisco Centre.,[IN:GET_MOVIES My go-to theater for Movies is [SL:THEATER_NAME Century San Francisco Centre ]. ]
+"If I'm looking for movies, I like fantasy the best.","[IN:GET_MOVIES If I'm looking for movies, I like [SL:GENRE fantasy ] the best. ]"
+My preferred pickup location when requesting RentalCars is Charles de Gaulle International Airport.,[IN:GET_RENTALCARS My preferred pickup location when requesting RentalCars is [SL:PICKUP_LOCATION Charles de Gaulle International Airport ]. ]
+"When I request information about Events, I should also take a look at RentalCars.","[IN:GET_EVENTS When I request information about Events, [IN:GET_RENTAL_CARS I should also take a look at RentalCars. ] ]"
+I would like Punjabi cuisine when I request Restaurants.,[IN:GET_RESTAURANTS I would like [SL:CUISINE Punjabi ] cuisine when I request Restaurants. ]
+I'd like a hotel that has wifi when I'm looking for a place to stay.,[IN:GET_HOTELS I'd like a hotel that [SL:HAS_WIFI has wifi ] when I'm looking for a place to stay. ]
+"If I'm looking for a restaurant, I'm especially keen on getting some Ramen.","[IN:GET_RESTAURANTS If I'm looking for a restaurant, I'm especially keen on getting some [SL:CUISINE Ramen ]. ]"
+"If I'm looking for a salon, I'd prefer it to be for both men and women.","[IN:GET_SALONS If I'm looking for a salon, I'd prefer it to be [SL:IS_UNISEX for both men and women ]. ]"
+"If I'm opening a bank account, I want it to be a savings account.","[IN:GET_BANKS If I'm opening a bank account, I want it to be a [SL:RECIPIENT_ACCOUNT_TYPE savings ] account. ]"
+I want the Doctor to be in San Fran if I request one.,[IN:GET_DOCTORS I want the Doctor to be in [SL:CITY San Fran ] if I request one. ]
+"If I'm looking for a Dentist, Sunnyvale is the city I want to go to.","[IN:GET_DENTISTS If I'm looking for a Dentist, [SL:CITY Sunnyvale ] is the city I want to go to. ]"
+Request a Doctor in San Jose.,[IN:GET_DOCTORS Request a Doctor in [SL:CITY San Jose ]. ]
+My preferred city for a Dentist is Sunnyvale.,[IN:GET_DENTISTS My preferred city for a Dentist is [SL:CITY Sunnyvale ]. ]
+My go-to place for Movies is Union City when I am in need.,[IN:GET_MOVIES My go-to place for Movies is [SL:LOCATION Union City ] when I am in need. ]
+"When it comes to eating out, my favorite type of cuisine is Asian Fusion.","[IN:GET_RESTAURANTS When it comes to eating out, my favorite type of cuisine is [SL:CUISINE Asian Fusion ]. ]"
+"When I request information about Events, please also investigate Hotels.","[IN:GET_EVENTS When I request information about Events, [IN:GET_HOTELS please also investigate Hotels. ] ]"
+"When it comes to Movies, I prefer Emeryville as the location.","[IN:GET_MOVIES When it comes to Movies, I prefer [SL:LOCATION Emeryville ] as the location. ]"
+I want to investigate both Travel and Hotels.,[IN:GET_TRAVEL I want to investigate both Travel] and [IN:GET_HOTELS Hotels ]. 
+I want you to look at both Restaurants and Movies when I ask.,I want you to look at both [IN:GET_RESTAURANTS Restaurants] and [IN:GET_MOVIES Movies] when I ask.
+"If I'm looking for Events, what I really want is Music.","[IN:GET_EVENTS If I'm looking for Events, what I really want is [SL:EVENT_TYPE Music]. ]"
+I would like to request Travel as well as Events.,[IN:GET_TRAVEL I would like to request Travel ] as well as [IN:GET_EVENTS Events ].
+"If I'm looking for a dentist, I want to go to Amazing Smile Dental.","[IN:GET_DENTISTS If I'm looking for a dentist, I want to go to [SL:DENTIST_NAME Amazing Smile Dental]. ]"
+"If I'm looking into Travel, I should also check out Hotels.","[IN:GET_TRAVEL If I'm looking into Travel, I should also check out [IN:GET_HOTELS Hotels]. ]"
+Search for Restaurants and Movies.,[IN:GET_RESTAURANTS Search for Restaurants ] and [IN:GET_MOVIES Movies. ]
+"When it comes to Hotels, I prefer ones that are rated 1-star.","[IN:GET_HOTELS When it comes to Hotels, I prefer ones that are rated [SL:AVERAGE_RATING 1-star]. ]"

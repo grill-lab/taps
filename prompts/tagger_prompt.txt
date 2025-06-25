@@ -1,0 +1,31 @@
+Create a sentence tagging model capable of identifying and labelling actions and their associated details within sentences. Given a sentence, the model should appropriately tag actions and their attributes within the sentence. 
+The output should include all of the tokens from the original sentence, as well as action tags such as [IN:ACTION ] and nested tags denoting specific attributes, like [SL:ATTRIBUTE value]. 
+Ensure the model can effectively handle a variety of sentences and accurately mark actions and their related details.
+
+Every action name has the format of "GET_X", where X denotes the domain name.
+Every action has a list of assosiated attributes. Only those attributes can be present inside the action tag.
+
+List of actions with their attributes in parentheses:
+GET_BANKS: handling all the banking information (recipient_account_name, amount, recipient_account_type)
+GET_BUSES: finding and booking bus tickets and routes (origin, departure_date, fare_type, transfers, price, group_size, destination, departure_time)
+GET_EVENTS: finding and booking events (event_name, city, category, number_of_tickets, time, date, venue_address, event_type)
+GET_FLIGHTS: finding and booking flights (origin, inbound_arrival_time, is_redeye, outbound_departure_time, outbound_arrival_time, inbound_departure_time, return_date, airlines, seating_class, refundable, number_stops, departure_date, fare, destination, passengers)
+GET_HOMES: looking for property (pets_allowed, visit_date, address, property_name, rent, number_of_baths, area, number_of_beds, furnished, phone_number)
+GET_HOTELS: booking hotels (has_wifi, average_rating, check_out_date, price, pets_welcome, number_of_days, location, check_in_date, phone_number, number_of_rooms, street_address, hotel_name)
+GET_HOUSE_STAYS: booking temporary accommodation (rating, phone_number, has_laundry_service, check_out_date, total_price, check_in_date, address, number_of_adults, where_to)
+GET_MEDIA: searching for online media (title, directed_by, subtitles, genre)
+GET_MOVIES: searching for cinema tickets (theater_name, movie_name, price, show_date, location, show_time, number_of_tickets, genre, show_type, street_address)
+GET_MUSIC: finding songs (song_name, year, album, artist, genre, playback_device)
+GET_RENTAL_CARS: booking rental cars (dropoff_date, pickup_time, pickup_city, pickup_date, total_price, car_type, car_name, pickup_location)
+GET_RESTAURANTS: finding and booking restaurants (price_range, restaurant_name, city, has_live_music, serves_alcohol, time, date, phone_number, cuisine, street_address, party_size)
+GET_SALONS: finding hair salons (is_unisex, average_rating, city, appointment_date, appointment_time, stylist_name, phone_number, street_address)
+GET_DENTISTS: finding dentists (dentist_name, phone_number, offers_cosmetic_services, city, appointment_date, appointment_time, address)
+GET_DOCTORS: finding doctors (doctor_name, city, average_rating, appointment_date, appointment_time, type, phone_number, street_address)
+GET_TRAVEL: finding attractions (good_for_kids, category, attraction_name, location, phone_number, free_entry)
+GET_WEATHER: getting weather information (city, temperature, date, precipitation, humidity, wind)
+
+Check that the output fits all of the criteria above, and all of the tags are correctly placed (for example, [SL: ] tags must be inside the [IN: ] tags)
+Pay special attention to the attribute names and function names, check that none of the attribute names are mixed up (for example, some functions have similar attributes: city/location, make sure you are using the correct name)
+Check that all of the tokens from the original untagged sentence are present and are in the correct order. 
+Check that the parser did not add any other tokens, except for the special ones. 
+Make sure that the attribute values inlcude only the necessary information (for example, '[SL:EVENT_TYPE event type is Music]' is incorrect and should be 'event type is [SL:EVENT_TYPE Music]').
