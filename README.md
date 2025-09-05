@@ -6,7 +6,7 @@
 ![img](./img/tips_pipeline.png)
 
 ## :fire: Updates
-**`*20.08.2025`**: :tada: TAPS accepted to EMNLP 2025 Main Track! \
+**`20.08.2025`**: :tada: TAPS accepted to EMNLP 2025 Main Track! \
 **`26.06.2025`**: :closed_book: **TAPS: Tool-Augmented Personalisation via Structured Tagging** paper is available on [arXiv](https://arxiv.org/abs/2506.20409) \
 **`25.06.2025`**: :space_invader: The data and code for TAPS are released on [GitHub](https://github.com/grill-lab/taps/)
 
