@@ -5,6 +5,11 @@
 
 ![img](./img/tips_pipeline.png)
 
+## :fire: Updates
+**`*20.08.2025`**: :tada: TAPS accepted to EMNLP 2025 Main Track! \
+**`26.06.2025`**: :closed_book: **TAPS: Tool-Augmented Personalisation via Structured Tagging** paper is available on [arXiv](https://arxiv.org/abs/2506.20409) \
+**`25.06.2025`**: :space_invader: The data and code for TAPS are released on [GitHub](https://github.com/grill-lab/taps/)
+
 ## :zap: Setup and Usage
 
 Clone the current repository and install requirements:
@@ -82,7 +87,17 @@ To select demonstrations for **Tag-S** and **Tag-and-Generate** add  `--tag 'sim
 
 ## :link: Cite Us
 
-TBD
+```
+@misc{taktasheva2025tapstoolaugmentedpersonalisationstructured,
+      title={TAPS: Tool-Augmented Personalisation via Structured Tagging}, 
+      author={Ekaterina Taktasheva and Jeff Dalton},
+      year={2025},
+      eprint={2506.20409},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2506.20409}, 
+}
+```
 
 ## Licence
 Our code is available under the Apache 2.0 license.
